@@ -241,19 +241,6 @@ span {
     text-align: center;
     padding-bottom: 4rem;
 }
-
-/* .main-text span {
-    font-size: 2rem;
-} */
-
-
-/* .marquee {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    /* Full width of its parent
-    white-space: nowrap;
-} */
 .skill-container {
     display: flex;
     flex-wrap: wrap;
@@ -266,23 +253,11 @@ span {
     width: fit-content;
     height: 100%;
     text-align: center;
-    /* Start off the right edge */
-    /* transform: translateX(100%); */
-    /* Animate to the left */
-    /* animation: scroll-left 10s linear infinite; */
 }
 
 
 
-/* @keyframes scroll-left {
-    0% {
-        transform: translateX(100%);
-    }
 
-    100% {
-        transform: translateX(-100%);
-    }
-} */
 .skill-box {
     width: auto;
     padding: 8px;
@@ -382,6 +357,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 2.3rem;
+    flex-wrap: wrap;
 }
 
 .portfolio-box{
